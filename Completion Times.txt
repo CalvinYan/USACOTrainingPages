@@ -1,3 +1,11 @@
+Beads: Bronze, 42 min
+Milk2: Bronze, 46 min
+Transform: Bronze, 1 hr. 15 min(Initial algorithm was wrong)
+NameNum: Bronze, 41 min
+PalSquare: Bronze, 24.5 min
+DualPal: Bronze, 8 min(very similar to first problem)
+Milk: Bronze, 20 min
+Barn1: Bronze, 21 min
 Crypt1: Bronze, 22.5 min
 Combo: Bronze, 50 min
 Wormhole: Bronze, > 2.5 hours
