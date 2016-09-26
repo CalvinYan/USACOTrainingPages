@@ -41,22 +41,51 @@ public class prefix {
 		return false;
 	}
 	
+	private static boolean contains(String string, int index, String prefix) {
+		int len = prefix.length();
+		for (int i = index; i < index + len; i++) {
+			if (string.charAt(i) != prefix.charAt(i - index)) return false;
+		}
+		return true;
+	}
+	
 	public static void main(String[] args) throws IOException {
-		Scanner in = new Scanner(System.in);
+		Scanner in = new Scanner(new File("prefix.in"));
 		PrintWriter out = new PrintWriter(new File("prefix.out"));
-		ArrayList<String> primitives = new ArrayList<String>();
+		TreeSet<String> primitives = new TreeSet<String>();
 		String s = "";
 		while (!(s = in.next()).equals(".")) {
 			primitives.add(s);
 		}
-		String sequence = "";
+		StringBuilder sequence = new StringBuilder();
 		in.nextLine();
 		while (in.hasNextLine()) {
-			sequence += in.nextLine();
+			sequence.append(in.nextLine());
 		}
 		in.close();
-		DFS(sequence, "", primitives);
-		System.out.println(longest);
+		int len = sequence.length();
+		String string = sequence.toString();
+		boolean[] dp = new boolean[len + 1];
+		String[] prim = primitives.toArray(new String[0]);
+		Arrays.fill(dp, false);
+		dp[0] = true;
+		for (int i = 0; i <= len; i++) {
+			if (dp[i]) {
+				for (String p : prim) {
+					int pLen = p.length(), j = i + pLen;
+					if (j <= len) {
+						if (contains(string, i, p)) {
+							dp[j] = true;
+							if (j > longest) longest = j;
+						}
+					}
+					
+				}
+			}
+			
+		}
+		//DFS(sequence.toString(), "", primitives);
+		out.println(longest);
 		out.close();
 		System.exit(0);
 	}

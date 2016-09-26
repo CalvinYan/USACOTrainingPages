@@ -23,3 +23,13 @@ Preface: Silver, 45 min
 Subset: Silver, 1 hr 2 min (Kinda got a hint?)
 RunRound: Silver, 1 hr 40 min
 Lamps: Silver, 42 min
+Prefix: Silver, 1 hr 51 min
+NoCows: Silver, 3 hr. 21 min
+ZeroSum: Silver, 33 min
+Money: Silver, 1 hr 22 min
+ConCom: Silver, 1 hr 9 min
+TTwo: Silver, 19 min
+Maze1: Silver, 1 hr 27 min
+CowTour: Silver, 1 hr 41 min
+ComeHome: Silver, 1 hr 2 min
+FracDec: Silver, 1 hr 45 min
