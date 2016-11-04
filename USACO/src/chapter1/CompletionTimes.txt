@@ -1,0 +1,17 @@
+Beads: 42 min
+Milk2: 46 min
+Transform: 1 hr. 15 min(Initial algorithm was wrong)
+NameNum:  41 min
+PalSquare: 24.5 min
+DualPal: 8 min(very similar to first problem)
+Milk: 20 min
+Barn1: 21 min
+Crypt1: 22.5 min
+Combo: 50 min
+Wormhole: > 2.5 hours
+SkiDesign: 16.5 min
+AriProg: 50 min
+Milk3: 1 hr 15 min
+NumTri: 1 hr 10 min
+PPrime: 26 min
+SPrime: 11.5 min
