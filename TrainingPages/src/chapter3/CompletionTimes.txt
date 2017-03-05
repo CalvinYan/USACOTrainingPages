@@ -10,3 +10,6 @@ Msquare: 3 hr 37 min
 Butter: 2 hr 11 min
 Fence: 2 hr
 Shopping: 3 hr 3 min
+Camelot: 1 hr 41 min
+Range: 14 min
+Game1: 48 min

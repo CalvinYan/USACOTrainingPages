@@ -1,10 +1,10 @@
-package chapter3;
+/*package chapter3;
 
-/*
+
  ID: calviny1
  LANG: JAVA
  TASK: shopping
- */
+ 
 
 import java.io.*;
 import java.util.*;
@@ -49,3 +49,4 @@ public class shopping {
 	
 	
 }
+*/
